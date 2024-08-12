@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+}
+
+.hero-main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+ul {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.section1,
+.section2,
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.leftsection {
+    max-width: 350px;
+    padding: 0px;
+    margin: 0;
+}
+
+.jabel {
+    width: 500px;
+    height: 220px;
+}
+
+.firstbutton {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: 100px;
+    border: none;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+.title {
+    font-size: 36px;
+    font-weight: 1000px;
+    color: #1f2937;
+    text-align: center;
+    padding: 30px;
+    font-weight: bolder;
+    margin-bottom: 32px;
+}
+
+.text {
+    color: grey;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 50px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+img {
+    border: 4px;
+    border-color: #3882f6;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.Section4 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+}
+
+.paragraph {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    width: 720px;
+}
+
+.Signature {
+    text-align: right;
+    padding-left: 500px;
+}
+
+.Section5 {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    align-self: center;
+    padding: 50px;
+    border: solid;
+    border-radius: 20px;
+    margin: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    width: 700px;
+}
+
+.titre {
+    font-size: 18px;
+    font-weight: 900px;
+}
+
+.secondtitre {
+    color: whitesmoke;
+    font-size: 12px;
+}
+.button2 {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 10px 10px;
+    width: 100px;
+    border: solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
